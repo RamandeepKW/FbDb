@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FbDb</string>
+    <string name="helloUser">
+        a) The app shall contain a single dummy page with a dummy text. You can assume the logged-in user id to be 1. \n
+        b) Whenever a user opens or closes the app, the app shall make an entry in the Firebase Realtime database – storing the following – device details and the app open/close time \n
+        c) Backend team shall send notifications to this app. In data payload, you shall find the following parameters: notificationId (unique for each notification), notificationImage, title, message. Based on these parameters, the app shall display the notification. Clicking on the notification shall open the app. \n
+        d) Upon receiving the notification, the app shall update the status of the notification as read in the Firebase realtime database. \n
+        e) App shall check in every 6 hours or when the app is opened or when the device gets connected to the internet, if there are any unread notifications for the logged in user. If yes, open and show the notifications. \n
+    </string>
+</resources>
